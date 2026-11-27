@@ -1,0 +1,26 @@
+Paso 1
+¿Qué es el objeto generado por XMLHttpRequest?
+
+Es un objeto que permite hacer peticiones HTTP desde el navegador para pedir o enviar datos a un servidor sin recargar la página.
+
+¿Qué hace el método open de xhr?
+
+Prepara la petición indicando el método (GET), la dirección a la que se va a pedir y si es asíncrona.
+
+¿Qué hace el método onload de xhr?
+
+Es la función que se ejecuta cuando la respuesta del servidor ya llegó completa.
+
+Escribe data en la consola del navegador. ¿Qué muestra la consola?
+
+Muestra un objeto con la propiedad json, que tiene un arreglo de 20 productos. Cada producto trae id, title, price, description, category, image y rating.
+
+Paso 2
+¿Qué significa => en el código anterior?
+
+Es una función flecha, una forma más corta de escribir una función. En este caso recibe cada element del arreglo y ejecuta el código que está entre las llaves.
+
+Paso 3
+¿Qué hace filter y cómo funciona includes en este contexto?
+
+filter crea un arreglo nuevo solo con los elementos que cumplen la condición. includes revisa si el título del producto contiene el texto escrito en el buscador, distinguiendo mayúsculas y minúsculas.
